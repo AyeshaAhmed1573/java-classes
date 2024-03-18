@@ -1,0 +1,20 @@
+In Java, access modifiers (private, protected, and public) are keywords used to control the visibility and accessibility of classes, fields, methods, and constructors within a program. They determine which parts of a class are accessible from other classes and packages. Here's a description of each access modifier:
+
+Private (private):
+
+Accessible only within the same class.
+Members (fields, methods, constructors) marked as private cannot be accessed or modified by code outside the class.
+Encourages encapsulation by hiding the internal implementation details of a class from external interference.
+Typically used for fields and methods that are intended to be used only within the class itself.
+Protected (protected):
+
+Accessible within the same package and by subclasses (even if they are in different packages).
+Members marked as protected can be accessed by subclasses (inheritance) and by other classes within the same package.
+Provides a level of access between private and public, allowing for controlled access to certain class members.
+Often used when you want subclasses to have access to certain fields or methods, but not necessarily other classes.
+Public (public):
+
+Accessible from any other class or package.
+Members marked as public can be accessed and modified by any other class in the same or different packages.
+Provides the widest level of access, allowing for unrestricted use of the class members.
+Typically used for methods and fields that need to be accessible from outside the class, serving as the interface to the class.
